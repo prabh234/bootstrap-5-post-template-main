@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #FBFADA;
+}
+body{
+    display: flex;
+    min-height: 100dvh;
+    flex-direction: column;
+    background-color: #12372A;
+    background-image: url('./images/gravel.png');
+;
+}
+nav{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    padding: 0.5rem 1rem;
+    background-color: #adbc9f2a;
+    box-shadow: #adbc9f44 0px 3px 10px;
+}
+
+a{
+    text-decoration: none;
+
+}
+.logo{
+    color: #ADBC9F;
+}
+
+.contain{
+    display: flex;
+    align-items: center;
+    max-width: 90dvw;
+    gap: 2rem;
+    margin-left: 4rem;
+}
+.contain > ul{
+    display: flex;
+    gap:1rem;
+    list-style: none;
+}
+.contain > ul >li{
+    text-decoration: none;
+    color: #FBFADA;
+    padding: 1rem 0.5rem;
+}
+
+.contain > ul >li:hover{
+    background-color: #adbc9f44;
+    border-radius: 5px;
+    box-shadow: #adbc9f44 0px 3px 10px;
+}
+
+main{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    min-width: 95dvw;
+    flex-direction: column;
+    padding: 1rem;
+}
+.container{
+    border-radius: 10px;
+    background-color: #43685095;
+    display: flex;
+    width: 90dvw;
+    max-width: 100%;
+    gap: 1rem;
+    padding: 1rem;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+    justify-content: space-evenly;
+}
+.info-box{
+    text-align: justify;
+    min-width: 20rem;
+    max-width: 40dvw;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    justify-content: center;
+    /* align-items: center; */
+
+}
+.card{
+    border:2px solid #436850;
+    max-width: 20rem;
+    min-height: 15rem;
+    overflow: hidden;
+    background-color: #fbfada3e;
+    /* min-height: 10rem;
+    max-height: 50rem; */
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.card-img{
+   max-width:20rem;
+   height: 10rem;
+   border-radius: 10px 10px 0 0;
+}
+.card-box{
+    text-align: justify;
+    /* max-height: 50%; */
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+
+}
+img{
+    width: 22rem;
+    height: 30rem;
+}
+footer{
+    background-color:#adbc9f2a;
+    color: #ADBC9F;
+    text-align: center;
+    box-shadow: #adbc9f44 0px 3px 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.btn {
+ font-size: 1rem;
+ background-color: #436850;
+ box-shadow: none;
+ border: 2px solid #12372A;
+ border-radius: 30px;
+ padding: 0.5rem 1rem;
+ margin:1rem 0;
+ width: 10rem;
+
+}
+
+.btn:hover {
+  background: #12372A;
+}
