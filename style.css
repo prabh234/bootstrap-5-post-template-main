@@ -140,3 +140,50 @@ footer{
 .btn:hover {
   background: #12372A;
 }
+
+/* form */
+
+form{
+    display: flex;
+    flex-direction: column;
+    min-width: 10rem;
+    width: 60rem;
+    /* max-width: 30rem; */
+    gap: 1rem;
+}
+form > input{
+    background: transparent;
+    border:1px solid #89e7a8;
+    font-size: larger;
+    height: 2.5rem;
+}
+form > input:hover{
+    background: #adbc9f3b;
+    
+}
+
+form > input:focus{
+    background: #436850;
+    outline: none;
+}
+form > input::placeholder{
+   color: #fbfadabc;
+   }
+form > textarea{
+    background: transparent;
+       border:1px solid #89e7a8;
+
+    font-size: larger;
+}
+form > textarea:hover{
+    background: #adbc9f3b;
+    
+}
+
+form > textarea:focus{
+    background: #436850;
+    outline: none;
+}
+form > textarea::placeholder{
+   color: #fbfadabc;
+   }
